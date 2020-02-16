@@ -1,22 +1,29 @@
 examples:
-  country-indicators:
-    title: Country Indicators
-    description: Explore the correlations between indicators of development using matplotlib and ipywidgets
-    url: voila/render/index.ipynb
-    repo_url: https://github.com/voila-gallery/voila-gallery-country-indicators
-    ref: 7cd5df8169fe6acefe1d5a200f9878e441b9208a
-    image_url: https://i.imgur.com/IeG75O3.png
-  gaussian-density:
-    title: Gaussian Density
-    description: Explore the normal distribution interactively with bqplot
-    url: voila/render/index.ipynb
-    repo_url: https://github.com/voila-gallery/gaussian-density
-    ref: a643a1b180e1892840f4f692115f05a2b6df7bcb
-    image_url: https://i.imgur.com/J1Mj6rc.png
-  render-stl:
-    title: Render Stl
-    description: Explore STL files with ipyvolume
-    url: voila/render/index.ipynb
-    repo_url: https://github.com/voila-gallery/render-stl
-    ref: 23182d099e3b97bce3f64ec383d93ddc4734fe17
-    image_url: https://github.com/voila-gallery/render-stl/raw/master/thumbnail.png
+  mini-neuroquery:
+    title: Miniature Neuroquery
+    description: A stripped-down version of the neuroquery website
+    url: voila/render/minimal_dashboard.py
+    repo_url: https://github.com/neuroquery/neuroquery_apps
+    ref: fffb848a89437b2430aa46f3075d4817f0f0904a
+    image_url: https://neuroquery.org/static/images/brain_search.svg
+  ensemble-model:
+    title: Ensemble Model
+    description: Alternative model (30 NeuroQuery models trained on subsets of the data)
+    url: voila/render/ensemble_model_demo.py
+    repo_url: https://github.com/neuroquery/neuroquery_apps
+    ref: fffb848a89437b2430aa46f3075d4817f0f0904a
+    image_url: https://neuroquery.org/static/images/brain_search.svg
+  decoding:
+    title: Decoder
+    description: Given a Nifti brain image, finds associated terms
+    url: voila/render/decoder.py
+    repo_url: https://github.com/neuroquery/neuroquery_apps
+    ref: fffb848a89437b2430aa46f3075d4817f0f0904a
+    image_url: https://neuroquery.org/static/images/brain_search.svg
+  decoding:
+    title: Guessing game
+    description: Guess which peaks are related to the article title and abstract
+    url: voila/render/guess_activations.py
+    repo_url: https://github.com/neuroquery/neuroquery_apps
+    ref: fffb848a89437b2430aa46f3075d4817f0f0904a
+    image_url: https://neuroquery.org/static/images/brain_search.svg
