@@ -16,7 +16,7 @@ examples:
   decoding:
     title: Decoder
     description: Given a Nifti brain image, finds associated terms
-    url: voila/render/decoder.py
+    url: voila/render/decoding.py
     repo_url: https://github.com/neuroquery/neuroquery_apps
     ref: fffb848a89437b2430aa46f3075d4817f0f0904a
     image_url: https://neuroquery.org/static/images/brain_search.svg
